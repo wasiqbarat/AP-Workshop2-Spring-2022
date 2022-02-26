@@ -41,7 +41,7 @@ public class Student {
             this.id = id;
         }else {
             System.out.println("your entered id is less than 7!!");
-            return;
+            System.exit(1);
         }
     }
 
